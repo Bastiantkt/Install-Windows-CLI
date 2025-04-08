@@ -145,6 +145,12 @@ This guide outlines the process for installing Windows in **UEFI mode** with **G
     ```bash
     dism /apply-image /imagefile:install.wim /index:X /applydir:W:
     ```
+    
+    For **DISM with install.esd** (Windows 8 and later):
+
+    ```bash
+    dism /apply-image /imagefile:install.esd /index:X /applydir:W:
+    ```
 
     Or, for **ImageX** (Windows 7 or earlier):
 
