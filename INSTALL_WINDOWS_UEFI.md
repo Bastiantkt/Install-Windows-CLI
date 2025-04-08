@@ -159,6 +159,12 @@ This guide outlines the process for installing Windows in **UEFI mode** with **G
     bcdboot W:\Windows /s Z:
     ```
 
+### 19. Reboot
+
+    ```bash
+    wpeutil reboot
+    ```
+
 ---
 
 ## Conclusion
