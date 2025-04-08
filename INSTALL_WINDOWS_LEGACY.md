@@ -150,6 +150,13 @@ This guide outlines the process for installing Windows in **MBR mode** with MBR 
     bootsect /NT60 Z:
     ```
 
+### Reboot
+- Use `wpeutil reboot` to Reboot.
+
+    ```bash
+    wpeutil reboot
+    ```
+
 ---
 
 ## Conclusion
