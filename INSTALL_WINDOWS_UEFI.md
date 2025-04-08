@@ -159,11 +159,11 @@ This guide outlines the process for installing Windows in **UEFI mode** with **G
     bcdboot W:\Windows /s Z:
     ```
 
-### 18. Set Up the Bootloader
-- Use `bcdboot` to set up the boot files for UEFI.
+### Reboot
+- Use `wpeutil reboot` to Reboot.
 
     ```bash
-    bcdboot W:\Windows /s Z:
+    wpeutil reboot
     ```
 
 ---
