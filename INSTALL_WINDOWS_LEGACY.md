@@ -124,6 +124,12 @@ This guide outlines the process for installing Windows in **MBR mode** with MBR 
     ```bash
     dism /apply-image /imagefile:install.wim /index:X /applydir:Z:
     ```
+    
+    For **DISM with install.esd** (Windows 8 and later):
+
+    ```bash
+    dism /apply-image /imagefile:install.esd /index:X /applydir:Z:
+    ```
 
     Or, for **ImageX** (Windows 7 or earlier):
 
